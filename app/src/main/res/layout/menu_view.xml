@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/cinema_black">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinema_black"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_cc" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cinema_div" />
+
+    <LinearLayout
+        android:id="@+id/pulpit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cinema_orange"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="NEWSY"
+            android:textAllCaps="true"
+            android:textColor="@color/cinema_white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cinema_div" />
+
+    <LinearLayout
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cinema_orange"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="20dp"
+            android:text="REPERTUAR"
+            android:textAllCaps="true"
+            android:textColor="@color/cinema_white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cinema_div" />
+
+    <LinearLayout
+        android:id="@+id/promocje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cinema_orange"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="MAPA KIN"
+            android:textAllCaps="true"
+            android:textColor="@color/cinema_white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cinema_div" />
+
+    <LinearLayout
+        android:id="@+id/nearest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cinema_orange"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="NAJBLIZSZE KINO"
+            android:textAllCaps="true"
+            android:textColor="@color/cinema_white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

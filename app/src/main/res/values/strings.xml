@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cinema City</string>
+    <string name="pulpit">Pulpit</string>
+    <string name="list">Listy ZAKUPÓW</string>
+    <string name="promocje">Promocje</string>
+    <string name="find_shop">Znajdź sklep</string>
+    <string name="update">Zapisz</string>
+</resources>

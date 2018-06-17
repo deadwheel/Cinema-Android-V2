@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="1000dp"
+    android:minHeight="450dp"
+    android:background="@color/cinema_black"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/tytul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="gfdgfdgfd"
+        android:textColor="@color/cinema_orange"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/daty_rez"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/cinema_white"
+        android:entries="@array/daty_r"
+        android:padding="10dp"
+        android:popupBackground="@color/cinema_white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Normalne:"
+            android:textColor="@color/cinema_white" />
+
+        <TextView
+            android:id="@+id/normalne_ilosc"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/cinema_white" />
+
+        <Button
+            android:id="@+id/add_normalne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@color/cinema_orange"
+            android:text="+"
+            android:textColor="@color/cinema_white" />
+
+        <Button
+            android:id="@+id/min_normalne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cinema_orange"
+            android:text="-"
+            android:textColor="@color/cinema_white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Ulgowe:"
+            android:textColor="@color/cinema_white" />
+
+        <TextView
+            android:id="@+id/ulgowe_ilosc"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/cinema_white" />
+
+        <Button
+            android:id="@+id/add_ulgowe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@color/cinema_orange"
+            android:text="+"
+            android:textColor="@color/cinema_white" />
+
+        <Button
+            android:id="@+id/min_ulgowe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cinema_orange"
+            android:text="-"
+            android:textColor="@color/cinema_white" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitXY" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/cinema_white"
+        android:ems="10"
+        android:hint="miejsce,rzad;miejsce,rzad"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/cinema_black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cinema_orange"
+        android:text="REZERWUJ"
+        android:textColor="@color/cinema_white" />
+
+</LinearLayout>
+</ScrollView>
